@@ -1,5 +1,10 @@
 namespace graphics() {
     
+    int light() {
+        
+        
+        
+    }
     int shaders() {
         
         
