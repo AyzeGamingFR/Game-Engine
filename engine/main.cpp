@@ -1,4 +1,5 @@
 #include "AIs/AIs.cpp"
+#include "OpenCL/OpenCL.cpp"
 #include "player/player.cpp"
 #include "rendering/rendering.cpp"
 #include "server/server.cpp"
