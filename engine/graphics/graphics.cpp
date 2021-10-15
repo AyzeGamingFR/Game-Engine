@@ -7,7 +7,7 @@ namespace graphics() {
         list<int> lights;
         void createLight(xPos, yPos, zPos, xRotation, yRotation, zRotation, lightColor, lightBrightness) { // the light color starts from 0000 0000 0000 and stop at zzzz zzzz zzzz
             
-            lights.push_back("{'xPos': " +xPos +", 'yPos': " +yPos +", 'zPos': " +zPos +", 'xRotation': " +xRotation +", 'yRotation': " +yRotation +", 'zRotation': " +zRotation +", 'lightColor': '" +lightColor +'", 'lightBrightness': " +lightBrightness +"}")
+            lights.push_back("{'xPos': " +xPos +", 'yPos': " +yPos +", 'zPos': " +zPos +", 'xRotation': " +xRotation +", 'yRotation': " +yRotation +", 'zRotation': " +zRotation +", 'lightColor': '" +lightColor +"', 'lightBrightness': " +lightBrightness +"}")
             
         };
         
