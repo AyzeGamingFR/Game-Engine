@@ -1,6 +1,6 @@
 #include <list>
 
-namespace graphics() {
+namespace graphics {
     
     int light() {
         
@@ -17,7 +17,7 @@ namespace graphics() {
         list<int> shaders;
         void createShader(xSize, ySize, shader) {
             
-            shaders.push_back("{'xSize': " +xSize +", 'ySize': " +ySize +", 'texture': '" +shader +'"}")
+            shaders.push_back("{'xSize': " +xSize +", 'ySize': " +ySize +", 'textures': '" +shader +'"}")
             
         };
         
@@ -33,4 +33,4 @@ namespace graphics() {
         
     };
     
-}
+};
