@@ -10,5 +10,10 @@ namespace movements {
         return (distance / time)
         
     };
+    unsigned int walk(unsigned int walking_speed) {
+        
+        
+        
+    };
     
 }
